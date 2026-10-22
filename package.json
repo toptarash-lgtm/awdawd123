@@ -1,0 +1,13 @@
+{
+  "name": "batman-license-manager",
+  "version": "2.0.0",
+  "description": "Batman VPN License Management Panel (HMAC-signed keys + instant revoke push)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init": "node cli.js init"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
